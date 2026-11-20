@@ -93,3 +93,7 @@ main {
 .hidden {
     display: none;
 }
+
+.shown {
+    display: block;
+}

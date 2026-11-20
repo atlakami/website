@@ -3,7 +3,7 @@ function showSection() {
   for (i = 0; i < links.length; i += 1) {
     document.getElementById(links[i].href.split('#')[1]).className = 'hidden';
   }
-  document.getElementById(this.href.split('#')[1]).className = '';
+  document.getElementById(this.href.split('#')[1]).className = 'shown';
   return false;
 }
 
