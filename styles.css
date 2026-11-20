@@ -13,3 +13,8 @@ h2 {
 p {
     color: #c6d0f5
 }
+
+header {
+    align-items: center;
+    flex-direction: row;
+}
