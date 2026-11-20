@@ -10,8 +10,9 @@ function showSection() {
 function createShowSection(links) {
   return showSection;
 }
-var sections = document.getElementById('sections'),
-  links = sections.getElementsByTagName('a'),
+var sections = document.getElementsByClassName('nav'),
+  containers = sections.getElementsByTagName('li'),
+  links = containers.getElementsByTagName('a'),
   showSection = createShowSection(links),
   i;
 for (i = 0; i < links.length; i += 1) {
