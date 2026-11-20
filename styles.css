@@ -11,6 +11,11 @@ body {
     background-color: #232634;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h2 {
     color: #c6d0f5
 }
@@ -27,7 +32,7 @@ header {
     align-items: center;
     justify-content: left;
     gap: 5rem;
-    background-color: #232634;
+    background-color: #414559;
     z-index: 1000;
     padding: 0.5rem 1.5rem;
 }
@@ -41,7 +46,7 @@ header {
 .nav {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 li a {
