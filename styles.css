@@ -53,3 +53,16 @@ li a {
     position: relative;
     color: #c6d0f5
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: left;
+    gap: 5rem;
+    background-color: #414559;
+    z-index: 1000;
+    padding: 0.5rem 1.5rem;
+}
