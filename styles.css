@@ -85,3 +85,11 @@ main {
     padding: 0.5rem 1.5rem;
     flex: 1;
 }
+
+#name {
+    color: #babbf1;
+}
+
+.hidden {
+    display: none;
+}
