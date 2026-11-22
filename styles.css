@@ -47,6 +47,11 @@ header {
     gap: 5rem;
 }
 
+#logo {
+    height: 64px;
+    width: 64px;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
