@@ -31,7 +31,7 @@ p {
 header {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /*width: 100%;*/
     position: relative;
     align-items: center;
     justify-content: space-between;
