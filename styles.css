@@ -35,7 +35,7 @@ header {
     position: relative;
     align-items: center;
     justify-content: left;
-    gap: 5rem;
+    gap: 2.5rem;
     background-color: #414559;
     z-index: 1000;
     padding: 0.5rem 1.5rem;
