@@ -95,3 +95,12 @@ main {
 #name {
     color: #babbf1;
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}
