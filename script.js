@@ -1,8 +1,8 @@
 const urlBase = "https://revamp.oligilbert.dev/"
 
 var url = window.location.toString()
-var home = document.getElementById("#home")
-var projects = document.getElementById("#projects")
+var home = document.getElementById("home")
+var projects = document.getElementById("projects")
 
 function urlCheck() {
   // checks url and makes a certain part of the website visible depending on which anchor is in the url
