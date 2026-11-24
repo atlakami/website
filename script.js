@@ -6,6 +6,7 @@ var projects = document.getElementById("#projects")
 
 function urlCheck() {
   // checks url and makes a certain part of the website visible depending on which anchor is in the url
+  url = window.location.toString()
   if (home != null && projects != null) {
     if (url == (urlBase + "#home")) {
       console.log("ran to home")
