@@ -1,12 +1,12 @@
 const urlBase = "https://revamp.oligilbert.dev/"
 
-var url = window.location.toString()
+var url = location.href.toString()
 var home = document.getElementById("home")
 var projects = document.getElementById("projects")
 
 function urlCheck() {
   // checks url and makes a certain part of the website visible depending on which anchor is in the url
-  url = window.location.toString()
+  url = location.href.toString()
   if (home != null && projects != null) {
     if (url == (urlBase + "#home")) {
       console.log("ran to home")
@@ -24,8 +24,12 @@ function urlCheck() {
   }
 }
 
-window.navigation.addEventListener("navigate", (event) => {
-  urlCheck()
-})
-
 urlCheck()
+
+var currentUrl = location.href
+setInterval(function() {
+  if (currentUrl != location.href) {
+    currentUrl = location.href
+    urlCheck()
+  }
+}, 300);
