@@ -96,6 +96,14 @@ main {
     color: #babbf1;
 }
 
+#home {
+    visibility: visible;
+}
+
+#projects {
+    visibility: hidden;
+}
+
 @media screen and (max-width: 500px) {
     header {
         flex-direction: column;
