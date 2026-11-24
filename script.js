@@ -8,12 +8,15 @@ function urlCheck() {
   // checks url and makes a certain part of the website visible depending on which anchor is in the url
   if (home != null && projects != null) {
     if (url == (urlBase + "#home")) {
+      console.log("ran to home")
       home.style.display = "block"
       projects.style.display = "none"
     } else if (url == (urlBase + "#projects")) {
+      console.log("ran to projects")
       home.style.display = "none"
       projects.style.display = "block"
     } else {
+      console.log("ran to else")
       home.style.display = "block"
       projects.style.display = "none"
     }
