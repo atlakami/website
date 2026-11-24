@@ -9,15 +9,12 @@ function urlCheck() {
   url = location.href.toString()
   if (home != null && projects != null) {
     if (url == (urlBase + "#home")) {
-      console.log("ran to home")
       home.style.display = "block"
       projects.style.display = "none"
     } else if (url == (urlBase + "#projects")) {
-      console.log("ran to projects")
       home.style.display = "none"
       projects.style.display = "block"
     } else {
-      console.log("ran to else")
       home.style.display = "block"
       projects.style.display = "none"
     }
@@ -32,4 +29,4 @@ setInterval(function() {
     currentUrl = location.href
     urlCheck()
   }
-}, 300);
+}, 175);
